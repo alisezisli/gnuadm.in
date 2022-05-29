@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <title>GNU Admin - Free Software, System Administration, Linux Blog</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.png">
+    <style>
+        body {
+            /* border: 1px solid #000; */
+            margin: 25px auto 25px auto;
+            width: 95%;
+            /* font-family: "Open Sans", sans-serif; */
+            line-height: 1.25;
+            font-size: 1vw;
+            background-color: #000000;
+            border: 3px dashed #009a93;
+            /* background-image:url("bg1.jpg");
+			-webkit-box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.75);
+			-moz-box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.75);
+			box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.75); */
+            color: #51ff00;
+            font-family: monospace;
+        }
+        
+        .lang-selector {
+            text-align: center;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #229713;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        a,
+        a:visited {
+            color: #009a93;
+        }
+        
+        a:hover {
+            color: #df0000;
+        }
+        
+        #container {
+            /* border: 1px solid #F00; */
+            margin: 0 auto 0 auto;
+            width: 96%;
+            padding: 2%;
+            /* background-image:url("bg.jpg"); */
+            background-color: #000000;
+        }
+        
+        hr {
+            color: #009a93;
+        }
+        
+        .tablo {
+            border: 1px solid #ccc;
+            border-collapse: collapse;
+            margin: 0 auto 0 auto;
+            padding: 0;
+            width: 85%;
+            table-layout: fixed;
+        }
+        
+        .tablo caption {
+            font-size: 1.5em;
+            margin: .5em 0 .75em;
+        }
+        
+        .tablo tr {
+            background-color: #f8f8f8;
+            border: 1px solid #ddd;
+            padding: .35em;
+        }
+        
+        .tablo th,
+        .tablo td {
+            padding: .625em;
+            text-align: center;
+        }
+        
+        .tablo th {
+            font-size: .85em;
+            letter-spacing: .1em;
+            text-transform: uppercase;
+        }
+        
+        .box_link_wrapper {
+            overflow: auto;
+            border-bottom: solid 1px #009a93;
+            padding: 15px 0;
+        }
+        
+        .box_link {
+            display: block;
+            float: left;
+            margin-right: 15px;
+        }
+        
+        .box_link img {
+            max-width: 150px;
+        }
+        
+        .left_side {
+            float: left;
+            width: 45%;
+        }
+        
+        .right_side {
+            float: right;
+            width: 45%;
+        }
+        
+        .left_side img,
+        .right_side img {
+            width: 100%;
+        }
+        
+        @media screen and (max-width: 1150px) {
+            body {
+                font-size: 2.5vw;
+            }
+        }
+        
+        @media screen and (max-width: 750px) {
+            body {
+                font-size: 3vw;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div class="lang-selector">
+            <a href="index_tr.html" title="GNU Admin - Türkçe Linux Blog">TR</a> | <a href="index_en.html" title="GNU Admin - English Linux Blog">EN</a>
+        </div>
+
+        <h1>~~~ Welcome to GNU Admin ~~~</h1>
+
+        <div class="box_link_wrapper">
+            <a class="box_link" href="https://gnuadm.in/en" title="GNU Admin Linux Blog" target="_blank"><img src="src/linux_logo.webp" alt="GNU Admin Linux Blog" title="GNU Admin Linux Blog"></a>
+            <p style="font-weight: bold;">~# GNU/Linux Blog</p>
+            <p><a href="https://gnuadm.in/en" title="GNU Admin English Blog" target="_blank">GNU/Linux blog in English</a>. Mostly writing about Linux command examples, tips and tricks.</p>
+        </div>
+
+        <div class="box_link_wrapper">
+            <a class="box_link" href="https://alisezisli.com.tr" title="Ali Sezişli Blog" target="_blank"><img src="src/person.webp" alt="Ali Sezişli Blog" title="Ali Sezişli Blog"></a>
+            <p style="font-weight: bold;">~# Personal Blog</p>
+            <p><a href="https://alisezisli.com.tr" title="Ali Sezişli Blog" target="_blank">Personal blog</a> where I cover topics such as GNU/Linux, system administration, shell scripting.</p>
+        </div>
+
+        <div class="box_link_wrapper">
+            <a class="box_link" href="https://twitter.com/gnublog" title="GNU Admin Twitter" target="_blank"><img src="src/tw_logo.webp" alt="GNU Admin Twitter" title="GNU Admin Twitter"></a>
+            <p style="font-weight: bold;">~# Twitter Bird</p>
+            <p><a href="https://twitter.com/gnublog" title="Gnu Admin Twitter" target="_blank">GNU Admin Twitter</a>. Access, deploy, manage. Don't be afraid of Linux. Follow for news from Linux world and blog posts.</p>
+        </div>
+
+        <div class="box_link_wrapper">
+            <a class="box_link" href="https://www.youtube.com/channel/UC2GjhTXA4x8_1jUHL76RUCw" title="GNU Admin YouTube" target="_blank"><img src="src/yb_logo.webp" alt="GNU Admin YouTube" title="GNU Admin YouTube"></a>
+            <p style="font-weight: bold;">~# YouTube Channel</p>
+            <p>From basic GNU/Linux system administration and free software videos to gameplay videos. Subscribe to <a href="https://www.youtube.com/channel/UC2GjhTXA4x8_1jUHL76RUCw" title="GNU Admin YouTube" target="_blank">GNU Admin Youtube channel</a>.</p>
+        </div>
+
+        <div class="box_link_wrapper">
+            <a class="box_link" href="https://t.me/varspoolmail" title="GNU Admin Telegram" target="_blank"><img src="src/tg_logo.webp" alt="GNU Admin Telegram" title="GNU Admin Telegram Kanalı"></a>
+            <p style="font-weight: bold;">~# Telegram Channel - Internship & Job Postings</p>
+            <p>To follow internship/job postings and training/event announcements, join our <a href="https://t.me/varspoolmail" title="GNU Admin Telegram" target="_blank">GNU Admin
+                    Telegram channel</a>.</p>
+        </div>
+
+        <div class="box_link_wrapper">
+            <a class="box_link" href="https://discord.gg/GVdQGgxt9N" title="GNU Admin Discord" target="_blank"><img src="src/dc_logo.webp" alt="GNU Admin Discord" title="GNU Admin Discord"></a>
+            <p style="font-weight: bold;">~# Discord Server</p>
+            <p>We're discussing <a href="https://alisezisli.com.tr/ozgur-yazilim-nedir-neden-onemlidir/" title="Özgür Yazılım Nedir? Neden Önemlidir?" target="_blank">free software</a>, GNU/Linux, system administration, software development. We try to support
+                our friends especially who are at the beginning of their careers in their internship and job search. <a href="https://discord.gg/GVdQGgxt9N" title="GNU Admin Discord" target="_blank">Click to join</a>.</p>
+        </div>
+
+        <div style="overflow:auto;">
+            <div class="left_side">
+                <h2>~# MAPF1 GRUB Theme</h2>
+                <a href="https://github.com/alisezisli/MAPF1-GRUB-Theme" title="Mercedes-AMG Petronas F1 GRUB theme" target="_blank"><img src="src/MAPF1_Theme.webp" title="Mercedes-AMG Petronas F1 GRUB Theme"></a>
+                <p><a href="https://github.com/alisezisli/MAPF1-GRUB-Theme" title="Mercedes-AMG Petronas F1 GRUB theme" target="_blank">Mercedes-AMG Petronas F1 GRUB
+                        theme</a></p>
+            </div>
+            <div class="right_side">
+                <h2>~# 2021 Formula 1 Teams GRUB Themes</h2>
+                <a href="https://github.com/alisezisli/Formula1-GRUB-Themes" title="2021 Formula One World
+        Championship teams GRUB themes" target="_blank"><img src="src/all-images.webp" title="2021 Formula One World
+            Championship teams GRUB themes"></a>
+                <p><a href="https://github.com/alisezisli/Formula1-GRUB-Themes" title="2021 Formula One World Championship teams GRUB themes" target="_blank">2021 Formula One
+                        World
+                        Championship teams GRUB themes</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
